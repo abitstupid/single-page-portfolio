@@ -1,0 +1,61 @@
+.skill-tile-container {
+    width: 100%;
+    padding-left: var(--px64-size);
+    padding-right: var(--px64-size);
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: var(--px36-size);
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.skill-heading {
+    margin-bottom: var(--px36-size);
+    color: var(--pri-color);
+}
+
+.skill-tile  {
+    height: 150px;
+    width: 150px;
+    margin-bottom: var(--px64-size);
+
+    
+    border-radius: 50%;
+    background: var(--pri-color) url("../assets/skill-minimal.png");
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+@media screen and (max-width: 350px) {
+}
+
+
+@media screen and (min-width: 576px) {
+}
+
+@media screen and (min-width: 768px) {
+}
+
+
+@media screen and (min-width: 992px) {
+
+}
+
+@media screen and (min-width: 1200px) {
+   
+}
+
+@media screen and (min-width: 1400px) {
+}
+
+@media screen and (max-height:375px) {
+} 
+
+
+
+

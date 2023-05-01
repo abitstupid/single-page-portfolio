@@ -1,0 +1,75 @@
+:root {
+    --pri-color: #A00FE4;
+    --sec-color: #000;
+    --ter-color: #fcd770;
+    --input-color: #00000039; 
+
+    /* margin */
+    --px4-size: 0.25rem;
+    --px8-size: 0.5rem;
+    --px16-size: 1rem;
+    --px48-size: 3rem;
+    --px64-size: 4rem;
+    /* text size */
+    --px20-size: 1.25rem;
+    --px36-size: 2.25rem;
+}
+
+@font-face {
+    font-family: Gustatorydelight;
+    src: url(/assets/Gustatorydelight.ttf);
+}
+
+* {
+    box-sizing: border-box !important;
+    margin: 0px;
+    padding: 0px;
+}
+
+*:link , *:visited , *:hover ,  *:active {
+    text-decoration: none;
+}
+
+*:link , *:visited {
+    color: var(--pri-color);
+}
+
+*::selection {
+    color: var(--pri-color);
+    background: var(--ter-color);
+}
+
+*::-moz-selection {
+    color: var(--pri-color);
+    background: var(--ter-color);
+}
+
+.pri-text {
+    font-family: Montserrat, sans-serif;
+}
+
+.sec-text {
+    font-family: Work Sans, sans-serif;
+}
+
+.ter-text {
+    font-family: Gustatorydelight, cursive;
+    font-weight: 400;
+}
+
+.text-center {
+    text-align: center;
+}
+
+h2 {
+    font-size: var(--px36-size);
+    font-weight: 800;
+}
+
+.bold-text {
+    font-weight: 700;
+}
+
+.bolder-text {
+    font-weight: 800;
+}

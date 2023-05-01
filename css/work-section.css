@@ -1,0 +1,94 @@
+#work {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.tile-container {
+    width: 100%;
+    
+    margin-bottom: var(--px48-size);
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: var(--px36-size);
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.work-heading {
+    color: var(--pri-color);
+
+    margin-bottom: var(--px36-size);
+
+}
+
+.work-tile {
+    height: 16.4rem;
+    width: 450px;
+    background: var(--pri-color) url("../assets/project-img.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    border-radius: var(--px16-size);
+    border: 2px solid #000;
+    transition: 300ms ease;
+
+}
+
+.work-tile:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 14px 1px #00000037;
+    transition: 500ms ease;
+    cursor: pointer;
+
+}
+
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 992px) {
+    
+    .work-tile {
+        height: 15.3rem;
+        width: 350px;
+    
+    }
+
+}
+
+
+@media screen and (max-width: 768px) {
+    .work-tile {
+        height: 15.8rem;
+        width: 400px;
+    }
+    
+}
+
+
+@media screen and (max-width: 576px) {
+
+    .work-tile {
+        height: 14rem;
+        width: 400px;
+    }
+}
+
+
+@media screen and (max-width: 350px) {
+    .work-tile {
+        height: 12rem;
+        width: 300px;
+    }
+}
+
+
+@media screen and (max-height:375px) {
+} 
+
+
+
+

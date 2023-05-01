@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hemant Rai</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width , initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="assets/logoPurple.svg">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&family=Work+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="root.css">
+        <link rel="stylesheet" href="/css/index.css">
+        <link rel="stylesheet" href="/css/navbar.css">
+        <link rel="stylesheet" href="/css/work-section.css">
+        <link rel="stylesheet" href="/css/skill-section.css">
+        <link rel="stylesheet" href="/css/about-me.css">
+        <link rel="stylesheet" href="/css/contact.css">
+        <script src="template-engine.js"></script>
+
+    </head>
+    <body>
+        <header>
+        <div w3-include-html="navbar.html"></div> 
+        </header>
+
+        <main>
+            <div class="hero-container">
+                <div class="hero-sub-container hero-sub-container-1">
+                    <div class="hero-img" autoplay loop>
+                        <video class="hero-gif" src="assets/hero-gif.mp4" autoplay muted loop preload="metadata"></video>
+                    </div>
+                    <img src="assets/linkedin.png" alt="Linked In" class="hero-contact linked-in">
+                    <img src="assets/email.png" alt="E Mail" class="hero-contact email">
+                </div>
+
+                <div class="hero-sub-container hero-sub-container-2">
+                    <div class="hero-top-container">
+                        <div class="hero-icon"></div>
+                        <h2 class=" hero-text hero-text-top ter-text">Hi, I'm</h2>
+                    </div>
+                    <h1 class="hero-text hero-text-mid pri-text">Hemant Rai</h1>
+                    <h2 class="hero-text hero-text-bottom ter-text">A Web developer</h2>
+                    <button class="pri-text bold-text text-center" name="hire" value="hire">Hire Me</button>
+                </div>
+                <div class="scroll-button"></div>
+            </div>
+
+        <!-- WORK  --> 
+
+        <div w3-include-html="work-section.html" id="work"></div> 
+            
+        <!-- Work Ends -->
+        <!-- Skill  -->
+
+        <div w3-include-html="skill-section.html" id="skill"></div> 
+
+        <!-- Skill Ends -->
+        <!-- About Me -->
+
+        <div w3-include-html="about-me.html"  id="about"></div> 
+
+        <!-- About Ends -->
+        <!-- Contact Me -->
+
+        <div w3-include-html="contact.html" id="contact"></div> 
+
+        <!-- Contact Ends -->
+        </main>
+
+
+<script>
+includeHTML();
+</script>
+    </body>
+    
+</html>
