@@ -106,6 +106,17 @@ form button:hover {
     .contact-container {
         width: 70vw;
     }
+
+    form {
+        width: 70%;
+    
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        row-gap: var(--px8-size);
+    }
+
+
 }
 
 
@@ -120,6 +131,10 @@ form button:hover {
 @media screen and (max-width: 576px) {
     .contact-container {
         width: 95vw;
+    }
+
+    form {
+        width: 100%;
     }
 }
 
